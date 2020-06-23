@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntToArray", "src\IntToArray\IntToArray.csproj", "{B1D23610-5CA9-41E0-82F1-5FD72EEB1580}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console", "Console", "{EEB9B63A-A3F1-400F-A2CC-6DE831D3CDDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{F951CAD3-F7A9-45BB-9524-97F03A28BB49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{B858A279-644B-46CE-B255-32F6E0816612}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1D23610-5CA9-41E0-82F1-5FD72EEB1580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D23610-5CA9-41E0-82F1-5FD72EEB1580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D23610-5CA9-41E0-82F1-5FD72EEB1580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D23610-5CA9-41E0-82F1-5FD72EEB1580}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1D23610-5CA9-41E0-82F1-5FD72EEB1580} = {EEB9B63A-A3F1-400F-A2CC-6DE831D3CDDB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03FE349B-2EF8-4569-8F84-9B8EEF030011}
+	EndGlobalSection
+EndGlobal
