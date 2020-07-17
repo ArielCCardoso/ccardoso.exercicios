@@ -6,7 +6,7 @@ namespace Curso.Udemy.CSharpCompleto2020
     {
         static void Main(string[] args)
         {
-            Capitulo3.Salario();
+            Capitulo3.Impar();
         }
     }
 }

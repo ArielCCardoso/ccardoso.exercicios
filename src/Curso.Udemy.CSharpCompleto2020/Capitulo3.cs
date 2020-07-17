@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Globalization;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Curso.Udemy.CSharpCompleto2020
 {
@@ -84,6 +85,82 @@ namespace Curso.Udemy.CSharpCompleto2020
                 if (!Continue())
                     break;
                 Console.Clear();
+            }
+        }
+        public static void Login()
+        {
+            Console.Write("Informe sua senha...");
+            while(Console.ReadLine() != "2020") //Se fizer a conversão para inteiro em casos de 0 a esquerda pode falhar a condição
+            {
+                Console.WriteLine("Você errou a senha!!!\nDigite a senha novamente...");
+            }
+        }
+        public static void Cartesiano()
+        {
+            string[] valores = Console.ReadLine().Split(' ');
+            int x = int.Parse(valores[0]);
+            int y = int.Parse(valores[1]);
+
+            while (x != 0 && y != 0)
+            {
+                if (x > 0 && y > 0)
+                {
+                    Console.WriteLine("primeiro");
+                }
+                else if (x < 0 && y > 0)
+                {
+                    Console.WriteLine("segundo");
+                }
+                else if (x < 0 && y < 0)
+                {
+                    Console.WriteLine("terceiro");
+                }
+                else
+                {
+                    Console.WriteLine("quarto");
+                }
+                valores = Console.ReadLine().Split(' ');
+                x = int.Parse(valores[0]);
+                y = int.Parse(valores[1]);
+            }
+        }
+        public static void PostoDeCombustivel()
+        {
+            int alcool, diesel, gasolina;
+            alcool = diesel = gasolina = 0;
+
+            int tipo = 0;
+
+            while (tipo != 4)
+            {
+                if (tipo == 1)
+                {
+                    alcool =+ 1;
+                }
+                else if (tipo == 2)
+                {
+                    gasolina =+ 1;
+                }
+                else if (tipo == 3)
+                {
+                    diesel =+ 1;
+                }
+                Console.Clear();
+                Console.WriteLine("Informe seu combustivel preferido com o numero correspondente:\n1.Álcool\n2.Gasolina\n3.Diesel\n4.Fim\n");
+                tipo = int.Parse(Console.ReadLine());
+            }
+
+            Console.WriteLine("Muito Obrigado!");
+            Console.WriteLine($"Alcool: {alcool}\nDiesel: {diesel}\nGasolina: {gasolina}");
+        }
+        public static void Impar()
+        {
+            Console.Write("Informe um valor interio: ");
+            int v = int.Parse(Console.ReadLine());
+            for(int x=1; x<=v;x++)
+            {
+                if(x%2!=0)
+                    Console.WriteLine(x);
             }
         }
     }
