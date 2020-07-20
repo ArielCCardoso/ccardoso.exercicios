@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Globalization;
-using System.Security.Cryptography.X509Certificates;
 
-namespace Curso.Udemy.CSharpCompleto2020
+namespace Curso.Udemy.CSharpCompleto2020.Capitulo3
 {
-    class Capitulo3
+    class Exercicios
     {
         private static bool Continue()
         {
