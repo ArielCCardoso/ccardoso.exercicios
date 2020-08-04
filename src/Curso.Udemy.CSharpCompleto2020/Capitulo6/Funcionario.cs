@@ -1,4 +1,4 @@
-﻿using System.Data;
+using System.Data;
 
 namespace Curso.Udemy.CSharpCompleto2020.Capitulo6
 {

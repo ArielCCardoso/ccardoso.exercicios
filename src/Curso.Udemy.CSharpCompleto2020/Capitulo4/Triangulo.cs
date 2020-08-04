@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Curso.Udemy.CSharpCompleto2020.Capitulo4
 {
