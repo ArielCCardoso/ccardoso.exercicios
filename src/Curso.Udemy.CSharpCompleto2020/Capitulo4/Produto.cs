@@ -1,6 +1,4 @@
-﻿using System.Globalization;
-
-namespace Curso.Udemy.CSharpCompleto2020.Capitulo4
+﻿namespace Curso.Udemy.CSharpCompleto2020.Capitulo4
 {
     class Produto
     {
