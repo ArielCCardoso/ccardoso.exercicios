@@ -1,5 +1,5 @@
 ﻿using System;
-using Curso.Udemy.CSharpCompleto2020.Capitulo4;
+using Curso.Udemy.CSharpCompleto2020.Capitulo6;
 
 namespace Curso.Udemy.CSharpCompleto2020
 {
@@ -7,7 +7,7 @@ namespace Curso.Udemy.CSharpCompleto2020
     {
         static void Main(string[] args)
         {
-            Exercicios.MediaAluno();
+            Exercicios.ListSalario();
         }
     }
 }
