@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Runtime.InteropServices.WindowsRuntime;
-using System.Text;
-using System.Xml;
+﻿using System.Collections.Generic;
 
 namespace Curso.Udemy.CSharpCompleto2020.Capitulo4
 {
