@@ -19,9 +19,6 @@ namespace Curso.Udemy.CSharpCompleto2020.Capitulo6
         {
             Salario += Salario * (p / 100);
         }
-        public override string ToString()
-        {
-            return $"{Id}, {Nome}, {Salario}";
-        }
+        public override string ToString() => $"{Id}, {Nome}, {Salario}";
     }
 }
