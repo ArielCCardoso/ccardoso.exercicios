@@ -78,9 +78,9 @@ namespace Curso.Udemy.CSharpCompleto2020.Capitulo6
                 Console.WriteLine("Este funcionário não existe!!!");
 
             Console.WriteLine("Lista atualizada:");
-            foreach (Funcionario v in funcionarios)
+            foreach (Funcionario _f in funcionarios)
             {
-                Console.WriteLine(v);
+                Console.WriteLine(_f);
             }
         }
 
